@@ -1,0 +1,164 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("");
+    background-color: #0ed145;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: helvetica;
+    color: #424242;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  
+  .container {
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .page-title {
+    color: #424242;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #212121;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: helvetica;
+  }
+  
+  .page-logo {
+    width: 200px;
+    margin-top: -5px;
+  }
+
+  .page-logo #imagem img{
+    width: 200px;
+    height: 40px;
+  }
+
+  #imagem{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+    
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 0px;
+  }
+
+   .form-wrapper input:hover{
+    background-color: #212121;
+    color: white;
+   }
+
+   .form-wrapper input:focus{
+    outline: 0px;
+   }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #0ed145;
+    background: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper button:active{
+    border-top: 1px #212121 solid;
+    background-color: #BDBDBD;
+    color: #15a33d;
+  }
+
+ .localAddMusica img {
+  margin: 15px;
+  height: 150px;
+  width: 150px;
+
+}
+
+.localAddMusica p {
+  font-family: helvetica;
+  color : white;
+  font-size: 1em;
+  margin-top: 1px;
+  
+}
+
+.localAddMusica div {
+  height: 190px;
+  width: 190px;
+  margin: 20px auto ;
+}
+
+.localAddMusica img:hover{
+ height: 160px;
+  width: 160px;
+  margin: 20px auto;
+  box-shadow: 10px 5px 5px black;
+  transform: scale(1.2);
+
+}
+
+.localAddMusica a{
+  color: white;
+  text-decoration: none;
+}
+
+.localAddMusica a:hover{
+  text-decoration: underline;
+}
+
+.localAddMusica {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  background-color: #212121;
+  border-radius: 60px;
+  padding-bottom: 40px;
+  transition: 0.5s;
+}
+
+  #cabecalho{
+   /* border-top:solid #424242 2px ;
+    border-bottom:solid #424242 2px;
+    /*border-radius: 100px;*/
+    margin-left: auto;
+    margin-right: auto;
+    height: 85px;
+    width: 500px;
+    background-color: white;
+    border-radius: 60px;
+
+  }
+  
+

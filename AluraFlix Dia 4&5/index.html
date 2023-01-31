@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+    Imersão Dev - Aula 05
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="cabecalho">
+      <h1 class="page-title">
+        Aluraflix
+      </h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    
+    </div>
+    <p class="page-subtitle">
+      Qual seu filme favorito?
+    </p>
+    
+    <div class="form-wrapper">
+      <input type="text" id="filme" name="filme" placeholder="Insira o URL da imagem">
+      <input type="text" id="nomeFilme"name="nomeFilme" placeholder="Insira o nome do filme">
+      <button onClick="adicionarFilme()">Adicionar Filme</button>
+    <button onclick="removeFilme()" title="Insira o nome do filme para remover">Remover Filme</button>
+    <p id="msgErro"></p>
+    
+
+  </div>
+  <div class="localAddFilme" id="localAddFilme">
+    </div>
+</div>
+  <a href="https://alura.com.br/" target="_blank">
+
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <script src="app.js"></script>
+</body>
+
+</html>
